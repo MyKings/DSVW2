@@ -12,7 +12,7 @@ Quick start
 
 Run the following command:
 ```
-$ python3 dsvw.py 
+$ python3 dsvw2.py 
 Damn Small Vulnerable Web (DSVW) < 100 LoC (Lines of Code) #v0.2a
  by: Miroslav Stampar (@stamparm)
 
@@ -21,7 +21,7 @@ Damn Small Vulnerable Web (DSVW) < 100 LoC (Lines of Code) #v0.2a
 
 and navigate your browser to http://127.0.0.1:65412/:
 
-![DSVW](http://i.imgur.com/9nG4mwu.png)
+![DSVW](./img.png)
 
 Requirements
 ----
@@ -33,3 +33,13 @@ To install lxml via pip, run the following command:
 ```
 pip install -r requirements.txt
 ```
+
+New Features
+----
+
+* Add request statistics function
+* Add post type sqli
+
+![DSVW](./statistics.png)
+
+
